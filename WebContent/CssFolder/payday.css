@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+@media screen and (min-width: 700px){
+h1{
+	text-align: center;
+}
+
+#cashman{
+	position: relative;
+	left: 530px;
+}
+
+#links{
+	text-align: center;
+}
+
+#links a{
+	font-size: 25px;
+}
+}
+
+@media screen and (max-width: 699px){
+h1{
+	text-align: center;
+}
+
+#cashman{
+	position: relative;
+	left: 0px;
+}
+
+#links{
+	text-align: center;
+}
+
+#links a{
+	font-size: 25px;
+}
+}

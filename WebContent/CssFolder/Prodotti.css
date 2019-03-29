@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+
+@media screen and (min-width: 700px){
+
+table {
+	margin-left: 350px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+th, td{
+	border-color: #44c62d;
+	border-left-width: 2px;
+	border-style: ridge;
+}
+
+th{
+	font-family: 'Permanent Marker', cursive;
+}
+
+#Prodotti li{
+	list-style: none;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.prodHead{
+	font-size: 15px;
+	color: #44c62d;
+	font-family: 'Permanent Marker', cursive;
+	border: none;
+	background: transparent;
+	text-align: right;
+	
+}
+}
+
+@media screen and (max-width: 699px){
+body{
+}
+
+table {
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+th, td{
+	border-color: #44c62d;
+	border-left-width: 2px;
+	border-style: ridge;
+}
+
+th{
+	font-family: 'Permanent Marker', cursive;
+}
+
+#Prodotti li{
+	list-style: none;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.prodHead{
+	font-size: 15px;
+	color: #44c62d;
+	font-family: 'Permanent Marker', cursive;
+	border: none;
+	background: transparent;
+	text-align: right;
+	
+}	
+}

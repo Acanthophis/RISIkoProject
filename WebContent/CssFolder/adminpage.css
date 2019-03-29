@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+	
+}
+
+td{
+	font-family: 'Permanent Marker', cursive;
+}
+
+#AddProduct{
+	text-align: center;
+	display: none;
+}
+
+.PrButton{
+	font-size: 20px;
+	background-color:black;
+	font-family: cursive;
+	color: #44c62d;
+	margin-top:10px;
+}
+
+#back{
+	margin-top: 20px;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+
+.inputType{
+	border: none;
+	text-align: center;
+	color: #44c62d;
+	background: transparent;
+	border-bottom: solid 2px #44c62d;
+	margin-bottom: 3px;
+}
+
+#DeletePrd{
+	display: none;
+	text-align: center;
+}
+
+#DeletePrd .inputContainer{
+	margin-top: 70px;	
+}
+
+#ViewUsers{
+	display: none;
+}

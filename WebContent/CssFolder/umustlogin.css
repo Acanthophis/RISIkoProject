@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+@media screen and (min-width: 700px){
+h1{
+	text-align: center;
+}
+
+#PoliceMan{
+	position: relative;
+	left: 622px;
+}
+
+#links{
+	text-align: center;
+}
+
+#links a{
+	font-size: 25px;
+}
+}
+
+@media screen and (max-width: 699px){
+h1{
+	text-align: center;
+}
+
+#PoliceMan{
+	position: relative;
+	left: 50px;
+}
+
+#links{
+	text-align: center;
+}
+
+#links a{
+	font-size: 25px;
+}
+}

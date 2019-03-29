@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE news [
+<!ELEMENT news (notizia,source)>
+<!ELEMENT notizia (#PCDATA)>
+<!ELEMENT source (#PCDATA)>
+]>
+
+<catalogo>
+	<news>
+		<notizia>RISIko il miglior modo per divertirsi</notizia>
+		<source>Facebook "SuperGame"</source>
+	</news>
+
+	<news>
+		<notizia>RISIko better than the real Risiko</notizia>
+		<source>Twitter "Unofficial Voice"</source>
+	</news>
+
+	<news>
+		<notizia>Divertimento per tutti</notizia>
+		<source>Instagramm "UnOfficial Bonelli Editore"</source>
+	</news>
+	
+	<news>
+		<notizia>Immediato e diverente</notizia>
+		<source>Facebook "SuperGames"</source>
+	</news> 
+	
+	<news>
+		<notizia>Stimola l'intelletto</notizia>
+		<source>Twitter "MrGiocone"</source>
+	</news> 
+	
+	<news>
+		<notizia>Super Sviluppatori</notizia>
+		<source>Facebook "UnApple"</source>
+	</news>
+	 
+</catalogo>

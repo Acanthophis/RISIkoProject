@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+@media screen and (min-width: 700px){
+	
+	#Us{
+		text-align: center;
+	}
+	 
+	#icones{
+		text-align: center;
+	}
+	
+	#icones img{
+		width: 300px;
+		height: 300px;
+		border-radius: 50%;
+	}
+}
+@media screen and (max-width: 699px){
+	
+	#Us{
+		text-align: center;
+	}
+	 
+	#icones{
+		text-align: center;
+	}
+	
+	#icones img{
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+
+}

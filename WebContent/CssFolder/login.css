@@ -1,0 +1,140 @@
+
+@media screen and (min-width: 700px){
+
+	body{
+		background-image: url("../Image/killzones.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;	
+	}
+	
+	p{
+		text-align: center;
+		font-size: 25px;
+		font-family: fantasy;
+	}
+	
+	#logWindow{
+		padding-left:15px;
+		padding-top:10px;
+		padding-right:15px;
+		padding-bottom:25px;
+		border: 3px solid;
+		border-color: #222;
+		color: green;
+		position: absolute;
+		left: 45%;
+		top: 30%;
+		background-color: #222;
+		border-color: #44d62c;
+		border-radius: 10px;
+		
+	}
+	
+	.inputContainer{
+		background-color: #222;
+		padding-bottom:10px;
+		border-bottom: 1px solid;
+		border-bottom-color: white;
+	}
+	
+	.inputType{
+		background-color: #222;
+		color: white;
+		border: none;
+	}
+	
+	.logButton{
+		border: none;
+		background-color: #222;
+		color: black;
+		margin-top: 15px;
+		background-color: #44d62c; 
+		font-family: fantasy;
+		
+		
+	}
+	
+	a{
+		font-family: fantasy;
+		font-size: 14px;
+		text-decoration: none;
+		padding-left: 5px;
+		padding-right: 5px;
+		
+	}
+	
+	.logButton:hover{
+		color: fuchsia;
+		
+	}
+}
+
+@media screen and (max-width: 699px){
+
+	body{
+		background-image: url("../Image/ziosam.jpg");
+		background-repeat: no-repeat;
+		background-position: top;
+	}
+	
+	p{
+		text-align: center;
+		font-size: 25px;
+		font-family: fantasy;
+	}
+	
+	#logWindow{
+		padding-left:15px;
+		padding-top:10px;
+		padding-right:15px;
+		padding-bottom:25px;
+		border: 3px solid;
+		border-color: #222;
+		color: green;
+		position: absolute;
+		left: 25%;
+		top: 25%;
+		background-color: #222;
+		border-color: #44d62c;
+		border-radius: 10px;
+		
+	}
+	
+	.inputContainer{
+		background-color: #222;
+		padding-bottom:10px;
+		border-bottom: 1px solid;
+		border-bottom-color: white;
+	}
+	
+	.inputType{
+		background-color: #222;
+		color: white;
+		border: none;
+	}
+	
+	.logButton{
+		border: none;
+		background-color: #222;
+		color: black;
+		margin-top: 15px;
+		background-color: #44d62c; 
+		font-family: fantasy;
+		
+		
+	}
+	
+	a{
+		font-family: fantasy;
+		font-size: 14px;
+		text-decoration: none;
+		padding-left: 5px;
+		padding-right: 5px;
+		
+	}
+	
+	.logButton:hover{
+		color: fuchsia;
+		
+	}
+}

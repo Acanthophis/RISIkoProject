@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+
+@media screen and (min-width: 700px){
+
+h2{
+	text-align: center;
+}
+
+table {
+	margin-left: 630px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+th, td{
+	text-align: center;
+	border-color: #44c62d;
+	border-left-width: 2px;
+	border-style: ridge;
+}
+
+th{
+	font-family: 'Permanent Marker', cursive;
+}
+
+#RicaricaSection{
+	font-size: 20px;
+	text-align: center;
+}
+
+.howmuch{
+	background: transparent;
+	border: none;
+	color: #44c62d;
+	text-align: right;
+	font-size: 15px;
+}
+}
+
+@media screen and (max-width: 699px){
+
+h2{
+	text-align: center;
+}
+
+table {
+	margin-left: 40px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+th, td{
+	text-align: center;
+	border-color: #44c62d;
+	border-left-width: 2px;
+	border-style: ridge;
+}
+
+th{
+	font-family: 'Permanent Marker', cursive;
+}
+
+#RicaricaSection{
+	font-size: 20px;
+	text-align: center;
+}
+
+.howmuch{
+	background: transparent;
+	border: none;
+	color: #44c62d;
+	text-align: right;
+	font-size: 15px;
+}
+}

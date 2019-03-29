@@ -1,0 +1,164 @@
+@charset "ISO-8859-1";
+@media screen and (min-width: 700px){
+h1{
+	text-align: center;
+	color: #888;	
+}
+
+#Support img{
+	position: relative;
+	left: 622px;
+}
+
+#SupporterIconHP{
+		display: none;
+		color: #44d62c;
+		font-size: 18px;
+		text-align: center;
+		}
+		
+#SupporterIconHP a{
+	font-size: 22px;
+}
+
+#SupporterIconHP img{
+		height: 100px;
+		width: 100px;
+}
+
+#SupporterIconM{
+		display: none;
+		color: #44d62c;
+		font-size: 18px;
+		text-align: center;
+		}
+		
+#SupporterIconM a{
+	font-size: 22px;
+}
+
+#SupporterIconM img{
+		height: 100px;
+		width: 100px;
+}
+	
+.email{
+	float: right;
+	margin-right: 200px;
+	margin-top: 50px;
+}
+
+
+.headphone{
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+.suppButton{
+	border: none;
+	position: relative;
+	left: 670px;
+	background-color: #222;
+	color: #44d62c;
+	font-size: 28px;
+}
+
+.suppButton:hover{
+	color:fuchsia;
+}
+}
+
+
+@media screen and (max-width: 699px){
+h1{
+	text-align: center;
+	color: #888;	
+}
+
+#Support img{
+	margin-left: 50px;
+	}
+
+#SupporterIconHP{
+		display: none;
+		color: #44d62c;
+		font-size: 18px;
+		text-align: center;
+		}
+		
+#SupporterIconHP a{
+	font-size: 22px;
+}
+
+#SupporterIconHP img{
+		height: 50px;
+		width: 50px;
+}
+
+#SupporterIconM{
+		display: none;
+		color: #44d62c;
+		font-size: 18px;
+		text-align: center;
+		}
+		
+#SupporterIconM a{
+	font-size: 22px;
+}
+
+#SupporterIconM img{
+		height: 50px;
+		width: 50px;
+}
+	
+.email{
+}
+
+.headphone{
+}
+
+.suppButton{
+	border: none;
+	position: relative;
+	background: transparent;
+	margin-left: 100px;
+	color: #44d62c;
+	font-size: 28px;
+}
+
+.suppButton:hover{
+	color:fuchsia;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

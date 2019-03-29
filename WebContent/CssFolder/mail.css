@@ -1,0 +1,185 @@
+@charset "ISO-8859-1";
+
+@media screen and (min-width: 700px){
+#emailZone{
+	text-align: center;
+	color:#44c62d;
+}
+
+.inputText{
+	margin-top: 5px;
+	font-family: 'Permanent Marker', cursive;
+	background-color: #111;
+	border: ridge 2px #44c62d;
+	font-size: 25px;
+	width: 400px;
+	color: fuchsia;
+	text-align: center;
+}
+
+.inputType{
+	font-family: 'Permanent Marker', cursive;
+	background: transparent;
+	border: none;
+	font-size: 25px;
+	color: #44c62d;
+}
+
+#ringraziamenti{
+	text-align: center;	
+}
+
+.delete{
+	font-family: 'Permanent Marker', cursive;
+	background: transparent;
+	border: none;
+	font-size: 15px;
+	color: #44c62d;
+}
+
+
+.delete:hover{
+	color: fuchsia;
+}
+
+.inputType:hover{
+	color: fuchsia;
+}
+
+#messageText{
+	font-family: 'Permanent Marker', cursive;
+	background: transparent;
+	color: #44c62d;
+	border: none;
+}
+#showmessage{
+	font-family: 'Permanent Marker', cursive;
+	background: transparent;
+	color: #44c62d;
+}
+
+#showmessage :hover{
+	color: fuchsia;
+}
+
+#hidemessage{
+	font-family: 'Permanent Marker', cursive;
+	background: transparent;
+	color: #44c62d;
+	display: none;
+}
+
+#hidemessage :hover{
+	color: fuchsia;
+}
+
+table {
+	margin-left: 450px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+th, td{
+	border-color: #44c62d;
+	border-left-width: 2px;
+	border-style: ridge;
+}
+
+th{
+}
+
+#links{
+	font-size: 20px;
+	font-family: cursive;
+}
+}
+
+@media screen and (max-width: 699px){
+#emailZone{
+	text-align: center;
+	color:#44c62d;
+}
+
+.inputText{
+	margin-top: 5px;
+	font-family: 'Permanent Marker', cursive;
+	background-color: #111;
+	border: ridge 2px #44c62d;
+	font-size: 27px;
+	color: fuchsia;
+	text-align: center;
+}
+
+.inputType{
+	font-family: 'Permanent Marker', cursive;
+	background: transparent;
+	border: none;
+	font-size: 25px;
+	color: #44c62d;
+}
+
+#ringraziamenti{
+	text-align: center;	
+}
+
+.delete{
+	font-family: 'Permanent Marker', cursive;
+	background: transparent;
+	border: none;
+	font-size: 15px;
+	color: #44c62d;
+}
+
+
+.delete:hover{
+	color: fuchsia;
+}
+
+.inputType:hover{
+	color: fuchsia;
+}
+
+#messageText{
+	font-family: 'Permanent Marker', cursive;
+	background: transparent;
+	color: #44c62d;
+	border: none;
+}
+#showmessage{
+	font-family: 'Permanent Marker', cursive;
+	background: transparent;
+	color: #44c62d;
+}
+
+#showmessage :hover{
+	color: fuchsia;
+}
+
+#hidemessage{
+	font-family: 'Permanent Marker', cursive;
+	background: transparent;
+	color: #44c62d;
+	display: none;
+}
+
+#hidemessage :hover{
+	color: fuchsia;
+}
+
+table {
+	margin-top: 20px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+th, td{
+	border-color: #44c62d;
+	border-left-width: 2px;
+	border-style: ridge;
+}
+
+th{
+}
+
+#links{
+	font-size: 20px;
+	font-family: cursive;
+}

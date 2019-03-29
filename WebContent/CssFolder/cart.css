@@ -1,0 +1,83 @@
+@charset "ISO-8859-1";
+
+@media screen and (min-width: 700px){
+table{
+	margin-left: 400px;
+	
+}
+
+th, td{
+	border-color: #44c62d;
+	border-left-width: 2px;
+	border-style: ridge;
+}
+
+th{
+	font-family: 'Permanent Marker', cursive;
+}
+
+#voidCart{
+	text-align: center;
+	font-size: 25px;
+	color: #44c62d;
+	font-family: 'Permanent Marker', cursive;
+}
+
+#Fattura{
+	font-size: 25px;
+	text-align: center;
+}
+
+.payButton{
+	font-size: 15px;
+	color: #44c62d;
+	font-family: 'Permanent Marker', cursive;
+	border: none;
+	background: transparent;
+}
+
+.payButton:hover{
+	color: fuchsia;
+}
+}
+
+@media screen and (max-width: 699px){
+table{
+	margin-left: 0px;
+	
+}
+
+th, td{
+	border-color: #44c62d;
+	border-left-width: 2px;
+	border-style: ridge;
+}
+
+th{
+	font-family: 'Permanent Marker', cursive;
+}
+
+#voidCart{
+	text-align: center;
+	font-size: 25px;
+	color: #44c62d;
+	font-family: 'Permanent Marker', cursive;
+}
+
+#Fattura{
+	font-size: 25px;
+	text-align: center;
+}
+
+.payButton{
+	font-size: 15px;
+	color: #44c62d;
+	font-family: 'Permanent Marker', cursive;
+	border: none;
+	background: transparent;
+}
+
+.payButton:hover{
+	color: fuchsia;
+}
+}

@@ -1,0 +1,511 @@
+@charset "ISO-8859-1";
+@media screen and (min-width: 700px){
+header{
+
+	color: white:
+}
+
+#openMenu{
+	display: none;
+}
+
+#closeMenu{
+	display: none;
+}
+
+body{
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	background-image: url("http://www.rchammers.it/wp-content/uploads/2013/05/sfondo-sito.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+body a{
+	color: #44d62c;
+	text-decoration: none;	
+}
+
+body a:hover{
+	color: fuchsia;
+}
+
+#logo img {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	}
+
+#navigationBar {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+}
+
+	#navigationBar li{
+		  float: left;
+	}
+	
+	#navigationBar li a{
+		display: block;
+	    color: #44d62c;
+	    text-align: center;
+	    text-decoration: none;
+	    font-family: 'Gaegu';
+	    font-size: 150%;
+	    background-color: #111;
+	    margin-left: 175px;
+	}
+	
+	#navigationBar li .Prodotti{
+		background-color: #111;
+		display: block;
+	    color: #44d62c;
+	    font-family: 'Gaegu';
+	    text-align: center;
+	    text-decoration: none;
+	    border-style: none;
+	    font-size: 150%;
+	    margin-left: 175px;
+	}
+	
+	#navigationBar li :hover{
+		color: white;
+	}
+		
+	#navigationBar #srch{
+	 	padding: 14px 16px;
+	 	padding-left: 800px;
+	 	visibility: hidden;
+	 	position: absolute;
+	 			<!-- da riverdere -->
+	 }
+	#navigationBar #srch :hover{
+		background-color: white;
+	 }	
+
+#registration{
+	margin-top: 20px;
+	float: right;
+}
+
+	#sociallinks{
+	margin-right: 5px;
+	margin-top: 10px;
+	}
+	
+	#sociallinks li{
+		list-style-type: none;
+		display: inline;
+	}
+
+	#sociallinks img{
+		height: 50px;
+		width: 50px;
+		border-radius: 10px;
+		border-bottom: 3px solid red;
+	}
+	
+	#sociallinks li :hover{
+		border-color: #44c62d;
+	}
+
+#loginContainer{	
+	text-transform: capitalize;
+	font-family: cursive;
+	padding: 5px 5px 5px 5px;
+	border: 2px inset #44c62d;
+	border-style: inset;
+	border-radius: 10px;
+}
+
+#startLogin{
+	margin-bottom: 80px;
+}
+
+#login{
+	position: relative;
+	top: 10px;
+}
+
+#login .inputType{
+	background-color: #222;
+	color: #44d62c;
+	border-radius: 25px;
+	border: solid white 3px;
+	margin-left: 2px;
+	text-align: center;
+}
+
+#logout {
+	color: #44c62d;
+}
+
+#risiko {
+    font-family: 'Coda Caption';
+	position: relative;
+	bottom: 50px;
+	font-size: 100px;
+	margin-left: 400px;
+	color: gray;
+}
+
+footer{
+	margin-top: 1.5%;
+	padding-bottom: 1.5%;
+	color: white;
+	text-align: center;
+}
+
+#carrello img{
+	height: 20px;
+	width: 20px;
+}
+
+#carrello img:hover{
+	filter: contrast(5%);
+}
+
+#impostazioni img{
+	height: 20px;
+	width: 20px;
+}
+
+#impostazioni img:hover{
+	filter: contrast(5%);
+}
+
+#openprofile img{
+	display:none;
+}
+
+#hideprofile img{
+	display:none;
+}
+
+#yourProfile{
+	color: #44c62d;
+	border: 2px #44c62d;
+	border-radius: 6px;
+	padding: 0px 0px 0px 0px;
+	margin: 1px 1px 1px 1px;
+	font-family: cursive;
+	font-size: 15px;
+}
+
+#yourProfile :hover{
+	color: white;
+}
+
+.buttons{
+	font-family: cursive;
+	color: #44c62d;
+	border: 2px #44c62d;
+	border-radius: 6px;
+	padding: 0px 0px 0px 0px;
+	margin: 1px 1px 1px 1px;
+	font-size: 15px;
+	background-color: transparent; 
+}
+
+.buttons:hover{
+	color: white;
+}
+}
+
+
+@media screen and (max-width: 699px){
+header{
+	color: white:
+}
+
+#openMenu{
+	display: block;
+    color: #44d62c;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Gaegu';
+	font-size: 135%;
+	background-color: #111;
+	border: none;
+	border-bottom: solid 2px white;
+	border-top: solid 2px white;
+	padding-left: 43%;
+	padding-right: 43%;
+}
+
+#closeMenu{
+	display: block;
+    color: #44d62c;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Gaegu';
+	font-size: 135%;
+	background-color: #111;
+	border: none;
+	border-bottom: solid 2px white;
+	border-top: solid 2px white;
+	padding-left: 43%;
+	padding-right: 43%;
+	display: none;
+}
+
+body{
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	background-image: url("http://www.rchammers.it/wp-content/uploads/2013/05/sfondo-sito.jpg");
+	background-position: inherit;
+}
+
+body a{
+	color: #44d62c;
+	text-decoration: none;	
+}
+
+body a:hover{
+	color: fuchsia;
+}
+
+#logo img {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	display: none;
+	}
+
+#navigationBar {
+	position: absolute;
+	list-style-type: none;
+    margin: 0;
+    padding-right: 34%;
+    padding-left: 34%;
+    overflow: hidden;
+    background-color: #111;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    display: none;
+}
+
+	#navigationBar li{
+	}
+	
+	#navigationBar li a{
+		display: block;
+	    color: #44d62c;
+	    text-align: center;
+	    text-decoration: none;
+	    font-family: 'Gaegu';
+	    font-size: 135%;
+	    background-color: #111;
+	}
+	
+	#navigationBar li .Prodotti{
+		display: block;
+	    color: #44d62c;
+	    text-align: center;
+	    text-decoration: none;
+	    font-family: 'Gaegu';
+	    font-size: 135%;
+	    background-color: #111;
+	    border: none;
+	}
+	
+	#navigationBar li :hover{
+		color: white;
+	}
+		
+	#navigationBar #srch{
+	 	padding: 14px 16px;
+	 	padding-left: 800px;
+	 	visibility: hidden;
+	 	position: absolute;
+	 			<!-- da riverdere -->
+	 }
+	#navigationBar #srch :hover{
+		background-color: white;
+	 }	
+
+#registration{
+	margin-top: 20px;
+	float: right;
+}
+
+	#sociallinks{
+	margin-right: 5px;
+	margin-top: 10px;
+	display: none;
+	}
+	
+	#sociallinks li{
+		list-style-type: none;
+		display: inline;
+	}
+
+	#sociallinks img{
+		height: 50px;
+		width: 50px;
+		border-radius: 10px;
+		border-bottom: 3px solid red;
+	}
+	
+	#sociallinks li :hover{
+		border-color: #44c62d;
+	}
+
+#loginContainer{	
+	text-transform: capitalize;
+	font-family: cursive;
+	padding: 5px 5px 5px 5px;
+	border: 2px inset #44c62d;
+	border-style: inset;
+	border-radius: 10px;
+}
+
+#startLogin{
+	position: inherit;
+}
+
+#login{
+	position: relative;
+	top: 10px;
+}
+
+#login .inputType{
+	background-color: #222;
+	color: #44d62c;
+	border-radius: 25px;
+	border: solid white 3px;
+	margin-left: 2px;
+	text-align: center;
+}
+
+#logout {
+	color: #44c62d;
+}
+
+#risiko {
+    font-family: 'Coda Caption';
+	position: relative;
+	top: 10px;
+	left: 45px;
+	font-size: 70px;
+	text-align:center;
+	color: gray;
+}
+
+footer{
+	margin-top: 1.5%;
+	padding-bottom: 1.5%;
+	color: white;
+	text-align: center;
+}
+
+#carrello img{
+	height: 20px;
+	width: 20px;
+}
+
+#carrello img:hover{
+	filter: contrast(5%);
+}
+
+#impostazioni img{
+	height: 20px;
+	width: 20px;
+}
+
+#impostazioni img:hover{
+	filter: contrast(5%);
+}
+
+#openprofile img {
+	height: 20px;
+	width: 20px;
+}
+
+#openprofile img:hover{
+	filter: contrast(5%);
+}
+
+#yourProfile{
+	color: #44c62d;
+	border: 2px #44c62d;
+	border-radius: 6px;
+	padding: 0px 0px 0px 0px;
+	margin: 1px 1px 1px 1px;
+	font-family: cursive;
+	font-size: 15px;
+}
+
+#yourProfile :hover{
+	color: white;
+}
+
+.buttons{
+	font-family: cursive;
+	color: #44c62d;
+	border: 2px #44c62d;
+	border-radius: 6px;
+	padding: 0px 0px 0px 0px;
+	margin: 1px 1px 1px 1px;
+	font-size: 15px;
+	background-color: transparent; 
+}
+
+.buttons:hover{
+	color: white;
+}
+
+.nomobile{
+	display: none;
+	}
+	
+#profile{
+	display: none;
+	padding-right: 30%;
+	border-bottom: 2px #44c62d;
+	
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
